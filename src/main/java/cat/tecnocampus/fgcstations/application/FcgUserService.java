@@ -35,6 +35,7 @@ public class FcgUserService {
         //TODO 10.0: get the user (domain) given her username.
         User user = getDomainUser(username);
 
+
         // TODO 11.0: get the user's favorite journeys
         user.setFavoriteJourneyList(getFavoriteJourneys(username));
 
